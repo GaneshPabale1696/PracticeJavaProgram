@@ -2,6 +2,12 @@ package Abstraction;
 
 public class OverrideAbstractMethods extends AbstractClass {
 	
+	OverrideAbstractMethods()
+	{
+		System.out.println("Child class constructor is called");
+	}
+	
+	
 	@Override
 	public int add() {
 		 int a=20; 
@@ -62,7 +68,7 @@ public class OverrideAbstractMethods extends AbstractClass {
 		override.substract();
 		override.factorial();
 		override.Test();
-		override.rate_of_interest=10;	
+		AbstractClass.rate_of_interest=10;	
 		System.out.println(override.rate_of_interest);
 		override.patternprogram(5);
 		
@@ -75,7 +81,7 @@ public class OverrideAbstractMethods extends AbstractClass {
 		abs.substract();
 		abs.multiplication(10, 10);
 		abs.Test();
-		abs.rate_of_interest=20;
+		AbstractClass.rate_of_interest=20;
 	
 		System.out.println(abs.rate_of_interest);
 		
@@ -95,9 +101,7 @@ public class OverrideAbstractMethods extends AbstractClass {
 		
 		fabinocciseries(10);
 		
-		System.out.println("*******************");
-		
-		
+		System.out.println("*******************");	
 		
 	}
 

@@ -9,6 +9,11 @@ package Interface;
  */
 public interface Bank {
 	
+//	Bank() //Interfaces can not have constructors
+//	{
+//		System.out.println("Constructor");
+//	}
+	
 	public void credit();
 	
 	public void debit();

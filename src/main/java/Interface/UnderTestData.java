@@ -101,8 +101,7 @@ public class UnderTestData extends MechanicalClass{
 		UnderTestData.c=18;
 		
 		System.out.println(UnderTestData.c);
-		
-		
+	
 		System.out.println(utd.j);
 		
 	}

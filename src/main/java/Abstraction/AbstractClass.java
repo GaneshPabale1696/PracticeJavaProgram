@@ -2,7 +2,12 @@ package Abstraction;
 
 abstract class AbstractClass {
 
-	int rate_of_interest;
+	static int rate_of_interest;
+	
+	AbstractClass()//Abstract class have constructors
+	{
+		System.out.println("parent class constructor is called");
+	}
 	
 	public abstract int add();
 
