@@ -16,7 +16,7 @@ public abstract class Animal {
 		}
 	}
 
-	public static void pattern1(int n) {
+	public static final void pattern1(int n) {
 
 		System.out.println("**************************");
 
@@ -66,8 +66,7 @@ public abstract class Animal {
 	}
 
 	
-	
-	public void eat() {
+	public final void eat() {
 		System.out.println("Animal---eat");
 	}
 

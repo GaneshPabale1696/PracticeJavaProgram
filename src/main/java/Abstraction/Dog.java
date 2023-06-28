@@ -6,6 +6,10 @@ public class Dog extends Animal{
 	{
 		System.out.println("Dog is eat food");
 	}
+	
+//	public final void eat() { //we can not override the final method
+//		System.out.println("Animal---eat");
+//	}
 
 	public static void main(String[] args) {
 		
