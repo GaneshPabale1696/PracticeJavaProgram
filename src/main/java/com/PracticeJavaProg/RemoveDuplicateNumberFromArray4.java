@@ -22,11 +22,10 @@ public class RemoveDuplicateNumberFromArray4 {
        System.out.println(Arrays.toString(b));
 		
 		for(int no:hs) {
-			System.out.println(no +" ");
+			System.out.print(no +" ");
 		}
 		
-		
-		System.out.println("**********************");
+		System.out.println();
 		
 		String[] str= {"Java","Python","Eclipse","C","C","Java"};
 		
@@ -37,7 +36,7 @@ public class RemoveDuplicateNumberFromArray4 {
 			hs1.add(str[i]);
 		}
 
-		Object[] d=hs1.toArray(new String[hs1.size()]);
+		String[] d=hs1.toArray(new String[hs1.size()]);
 		
 		System.out.println(Arrays.toString(d));
 			
