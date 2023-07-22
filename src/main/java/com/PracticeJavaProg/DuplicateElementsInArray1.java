@@ -1,14 +1,15 @@
 package com.PracticeJavaProg;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class DuplicateElementsInArray1 {
 
 	public static void main(String[] args) {
 
-		String arr[] = { "c", "c", "c++", "python", "java" };
+		String arr[] = { "c", "c", "c++", "python", "java" ,"java"};
 
-		HashSet<String> langs = new HashSet<String>();
+		Set<String> langs = new HashSet<String>();
 		
 		boolean flag = false;
 
