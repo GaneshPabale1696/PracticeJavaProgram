@@ -101,6 +101,38 @@ public class AllPatternPrograms {
 		return n;	
 	}
 	
+	public static int pattern7(int n) {
+		System.out.println("***********pattern5*************");
+		
+	for(int i=1;i<=n;i++)
+		{
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print(j +" ");
+			}
+			System.out.println();
+		}
+		return n;	
+	}
+	
+	public static int pattern8(int n) {
+		System.out.println("***********pattern8*************");
+		
+	for(int i=1;i<=n;i++)
+		{
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print(j +" ");
+			}
+			System.out.println();
+		}
+		return n;	
+	}
+	
 	public static void main(String[] args) {
 		
 		pattern1(6);
@@ -109,6 +141,8 @@ public class AllPatternPrograms {
 		pattern4(3);
 		pattern5(6);
 		pattern6(6);
+		pattern7(5);
+		pattern8(7);
 	}
 
 }

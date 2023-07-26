@@ -18,7 +18,7 @@ public class CountTheWords {
 		
 		for(int i = 0;i<len-1;i++) {
 			
-			if((str.charAt(i)==' ') &&(str.charAt(i+1)!=' ')) {
+			if((str.charAt(i)==' ') && (str.charAt(i+1)!=' ')) {
 				
 					count++;
 			}
