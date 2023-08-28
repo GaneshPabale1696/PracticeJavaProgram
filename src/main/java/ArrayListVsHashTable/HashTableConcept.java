@@ -6,7 +6,7 @@ public class HashTableConcept {
 
 	public static void main(String[] args) {
 		
-		Hashtable h =new Hashtable<>();
+		Hashtable h =new Hashtable();
 		h.put("A","Test");
 		h.put("B", "Hello");
 		h.put("C","world");

@@ -6,7 +6,7 @@ public class ArrayListConcept {
 
 	public static void main(String[] args) {
 		
-		ArrayList ar=new ArrayList<>();
+		ArrayList ar=new ArrayList();
 		
 		ar.add(200); //0 index
 		ar.add(100); //1 index
